@@ -18,11 +18,24 @@ body {
     align-items: center;
     width: 400px;
     height: 500px;
-    background: rgb(17, 17, 17);
-    border-radius: 20px;
+    opacity: 0.4;
+    background: rgb(24, 24, 24);
+    border-radius: 40px;
+    transition: 0.3s linear;
 }
 
 .box h2 {
-    font-size: 6em;
+    font-size: 6em;  
     
+}
+
+.box:hover {
+   cursor: pointer;
+   color: #333;
+   background-color: blueviolet;
+   transition: 0.3s linear;
+}
+    
+h2:hover {
+
 }
