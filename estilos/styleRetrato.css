@@ -2,35 +2,91 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 body {
-    background-color: rgb(26, 25, 25);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: rgb(24, 23, 23);
 }
 main {
-    width: 70vw;
-    height: 100vh;
+    background-image: url(../images/selenada-fantasy-elf-5l-640x1136.jpg);
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-image: url(../images/maxresdefault\ \(1\).jpg);
-    opacity: 0.4;
-    background-size: cover;
+    align-items: center;
+    opacity: 0.9;
+    width: 90vw;
+    height: 100vh;
+    background-position: center left;
     background-repeat: no-repeat;
-}
-.box {
-    width: 350px;
-    height: 350px;
-    border-radius: 100%;
-    background-color: rgb(26, 24, 24);
-    box-shadow: 0px 0px 8px 0px rgb(255, 255, 255);
+    transition: 0.2s linear;
 }
 
-.box:hover {
-    box-shadow: 0px 0px 9px rgb(95, 170, 255);
-    transition: 0.5s linear;
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 23, 23); 
+    overflow: hidden;
+    border-radius: 20px;
+}
+.box::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 225, 255));
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.box::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background-color: rgb(24, 23, 23); 
+    border-radius: 20px;
+    background-image: url(../images/802067.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.box h2 {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    width: 210px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    z-index: 10;
+    cursor: pointer;
+    
+    
+}
+
+.box h2:hover {
+    background: linear-gradient(to left, rgb(200, 0, 255), rgb(190, 113, 213));
+    color: black;
+    border: black 1px solid;
+    box-shadow: none;
+    text-shadow: 0 0 10px black;
+    transition: 0.2s linear;
 }
