@@ -39,6 +39,9 @@ main {
     overflow: hidden;
     border-radius: 20px;
 }
+.box:hover{
+    opacity: 0.9;
+}
 .box::before {
     content: '';
     position: absolute;
@@ -81,7 +84,19 @@ main {
     
     
 }
-
+.box span {
+    position: relative;
+    color: #fff;
+    font-size: 6em;
+    z-index: 10 ;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+.box span:hover{
+    transition: 0.2s linear;
+    transform:scale(1.07);
+    color: rgb(137, 90, 255)
+}
 .box h2:hover {
     background: linear-gradient(to left, rgb(200, 0, 255), rgb(190, 113, 213));
     color: black;
