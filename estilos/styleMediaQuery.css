@@ -11,7 +11,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main {
         transition: 0.2s linear ;
-        background-image: url(../images/DESKTOPTABLETselenada-fantasy-elf-5l-1920x1080.png);
+        background-image: url(../images/RETRATOCSS.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -21,7 +21,8 @@
 @media screen and (min-width: 992px) {
     main {
         transition: 0.2s linear ;
-        background-image: url(../images/DESKTOPTABLETselenada-fantasy-elf-5l-1920x1080.png);
+        background-image: url(../images/astrology-astronomy-astrophotography-comet.jpg);
+        width: 60vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

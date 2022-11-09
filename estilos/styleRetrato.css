@@ -13,16 +13,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(5, 5, 5);
 }
 main {
-    background-image: url(../images/CELULARselenada-fantasy-elf-5l-640x1136.png);
+    background-image: url(../images/RETRATOCSS.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0.9;
-    width: 90vw;
-    height: 100vh;
+    width: 100vw;
+    height: 80vh;
     background-position: center left;
     background-repeat: no-repeat;
     transition: 0.2s linear;
@@ -30,14 +31,21 @@ main {
 
 .box {
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 330px;
+    height: 405px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(24, 23, 23); 
+    background-color: rgb(0, 0, 0); 
     overflow: hidden;
     border-radius: 20px;
+    
+}
+.boxvideo {
+    width: 220px;
+    height: 400px;
+    border-radius: 20px;
+    z-index: 11;
 }
 .box:hover{
     opacity: 0.9;
@@ -47,7 +55,8 @@ main {
     position: absolute;
     width: 150px;
     height: 140%;
-    background: linear-gradient(rgb(137, 90, 255), rgb(137, 90, 255));
+    background: linear-gradient(rgb(205, 237, 243), rgb(205, 237, 243));
+    box-shadow: 0px 0px 20px  rgb(0, 255, 247);
     animation: animate 5s linear infinite;
 }
 @keyframes animate {
@@ -62,12 +71,13 @@ main {
     content: '';
     position: absolute;
     inset: 4px;
-    background-color: rgb(24, 23, 23); 
+    background-color: rgb(0, 0, 0); 
     border-radius: 20px;
-    background-image: url(../images/802067.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
+    
 }
 
 .box h2 {
@@ -86,7 +96,7 @@ main {
 }
 .box span {
     position: relative;
-    color: #fff;
+    color: rgb(205, 237, 243);
     font-size: 6em;
     z-index: 10 ;
     transition: 0.2s linear;
@@ -95,7 +105,8 @@ main {
 .box span:hover{
     transition: 0.2s linear;
     transform:scale(1.07);
-    color: rgb(137, 90, 255)
+    color:rgb(205, 237, 243);
+    text-shadow:   0px 0px 10px rgb(205, 237, 243);
 }
 .box h2:hover {
     background: linear-gradient(to left, rgb(200, 0, 255), rgb(190, 113, 213));
