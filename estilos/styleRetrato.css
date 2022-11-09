@@ -16,7 +16,7 @@ body {
     background-color: rgb(24, 23, 23);
 }
 main {
-    background-image: url(../images/selenada-fantasy-elf-5l-640x1136.jpg);
+    background-image: url(../images/CELULARselenada-fantasy-elf-5l-640x1136.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ main {
     position: absolute;
     width: 150px;
     height: 140%;
-    background: linear-gradient(rgb(255, 255, 255), rgb(0, 225, 255));
+    background: linear-gradient(rgb(137, 90, 255), rgb(137, 90, 255));
     animation: animate 5s linear infinite;
 }
 @keyframes animate {
