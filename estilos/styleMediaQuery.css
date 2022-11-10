@@ -11,35 +11,39 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     main {
         transition: 0.2s linear ;
-        background-image: url(../images/RETRATOCSS.jpg);
+        background-image: url(../images/IMAGEMDESKTOP.jpg);
+        width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     .box {
         position: relative;
-        width: 360px;
+        width: 350px;
         height: 430px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: rgb(0, 0, 0); 
         overflow: hidden;
-        border-radius: 20px;
+        border-radius: 25px;
         transition: 0.2s linear;
 
 }
 
 .boxvideo {
-    width: 280px;
-    height: 420px;
-    border-radius: 40px;
+    width: 255px;
+    height: 415px;
+    border-radius: 20px;
     z-index: 11;
     transition: 0.2s linear;
 }
 .principal2 h2 {
     margin-right: 160px;
     transition: 0.2s linear;
+    margin-bottom: 380px;
+    
+    margin-right: 50px;
 }
 }
 
@@ -48,8 +52,8 @@
 @media screen and (min-width: 992px) {
     main {
         transition: 0.2s linear ;
-        background-image: url(../images/astrology-astronomy-astrophotography-comet.jpg);
-        width: 60vw;
+        background-image: url(../images/DESKTOPIMAGE.jpg);
+        width: 70vw;
         margin: auto;
         background-repeat: no-repeat;
         background-size: cover;
