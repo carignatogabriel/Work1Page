@@ -10,7 +10,6 @@
 
 .background {
     background:  url(../images/wallpaperflare.com_wallpaper\ \(5\).jpg);
-    opacity: 0.9;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -27,12 +26,13 @@ nav {
 nav a:hover {
     color: violet;
     transition: 0.2s linear;
+    
 }
 
 nav a {
     color: #fff;
     font-weight: 500;
-    margin-right: 25px;
+    
     
 }
 
@@ -47,13 +47,14 @@ header {
 
 .button-enter {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     margin-right: 25px;
 }
 
 .button-enter button {
-    background-color: violet;
+    background-color: rgb(109, 1, 109);
+    margin-right: 120px;
     padding: 10px;
     color: #fff;
     border-radius: 5px;
@@ -67,7 +68,7 @@ header {
 }
 .countainer {
     margin-left: 14%;
-    margin-top: 12%;
+    margin-top: 35%;
     max-width: 100%;
     
 }
@@ -77,7 +78,7 @@ header {
     font-size: 68px;
 }
 .meio-countainer p {
-    color: violet;
+    color: rgb(109, 1, 109);
     font-size: 17px;
     font-style: italic;
     font-weight: 500;
@@ -86,7 +87,7 @@ header {
 }
 
 .btn {
-    background-color: violet;
+    background-color: rgb(109, 1, 109);
     padding: 10px;
     color: #fff;
     border-radius: 5px;
