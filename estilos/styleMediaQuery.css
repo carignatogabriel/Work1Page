@@ -37,14 +37,20 @@
     z-index: 11;
     transition: 0.2s linear;
 }
-
+.principal2 h2 {
+    margin-right: 160px;
+    transition: 0.2s linear;
 }
+}
+
+
 
 @media screen and (min-width: 992px) {
     main {
         transition: 0.2s linear ;
         background-image: url(../images/astrology-astronomy-astrophotography-comet.jpg);
         width: 60vw;
+        margin: auto;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -69,6 +75,11 @@
     margin-left: 2px;
     border-radius: 20px;
     z-index: 11;
+    transition: 0.2s linear;
+}
+.principal2 h2 {
+    margin-right: 1200px;
+    font-size: 3em;
     transition: 0.2s linear;
 }
 }

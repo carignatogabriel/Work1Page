@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-    display: flex;
+
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -42,6 +42,7 @@ main {
     transition: 0.2s linear;
     
 }
+
 .boxvideo {
     width: 240px;
     height: 390px;
@@ -118,4 +119,29 @@ main {
     box-shadow: none;
     text-shadow: 0 0 10px black;
     transition: 0.2s linear;
+}
+
+.principal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(12, 11, 11);
+}
+.principal2 h2 {
+    color: White;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 250px;
+    padding: 20px 5px 20px 10px;
+   transition: 0.2s linear;
+}
+
+span {
+    color: violet;
+    font-size: 45px; 
 }
