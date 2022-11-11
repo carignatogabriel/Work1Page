@@ -113,15 +113,35 @@ header {
 
 
 .games {
-    width: 250px;
-    height: 140px;
-    border: 1px solid violet;
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     margin: auto;
     background: url(../images/NEEDFORSPEED.png);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    transition: 0.2s linear;
+    
+    
+}
+.games:hover {
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgb(109, 1, 109);
     
 }
 
+h1 {
+    color: rgb(109, 1, 109);
+    font-size: 95px;
+    
+}
+
+p {
+    font-style: italic;
+    font-size: 2em;
+}

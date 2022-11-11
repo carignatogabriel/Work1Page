@@ -31,7 +31,7 @@ main {
 
 .box {
     position: relative;
-    width: 340px;
+    width:  360px;
     height: 405px;
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ main {
 .boxvideo {
     width: 240px;
     height: 390px;
-    border-radius: 20px;
+    border-radius: 70px 0px 70px 0px;
     z-index: 11;
     transition: 0.2s linear;
 }
@@ -86,7 +86,9 @@ main {
     position: relative;
     color: rgb(0, 0, 0);
     background-color: #fff;
+    text-shadow: 0px 0px 10px violet;
     border-radius: 15px;
+    margin-left: 15px;
     font-size: 6em;
     z-index: 10 ;
     transition: 0.2s linear;
@@ -97,4 +99,20 @@ main {
     transform:scale(1.07);
     color: black;
     text-shadow: #fff 0px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-shadow: 0px 0px 10px violet;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-style: italic;
 }
