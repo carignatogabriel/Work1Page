@@ -16,7 +16,7 @@ body {
     background-color: rgb(5, 5, 5);
 }
 main {
-    background-image: url(../images/IMAGEMDESKTOP.jpg);
+    background: url(../images/IMAGEMDESKTOP.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;

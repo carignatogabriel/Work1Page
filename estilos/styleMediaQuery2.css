@@ -16,8 +16,20 @@
         max-width: 100%;
         transition: 0.1s linear;
     }
-
-
+    .background {
+        background:  url(../images/wallpaperflare.com_wallpaper\ \(5\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    .text {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
 }
 
 
@@ -27,5 +39,19 @@
         margin-top: 11%;
         max-width: 100%;
         transition: 0.1s linear;
+    }
+    .background {
+        background:  url(../images/wallpaperflare.com_wallpaper\ \(5\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    .text {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
     }
 }
