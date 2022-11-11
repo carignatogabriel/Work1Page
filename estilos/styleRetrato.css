@@ -31,7 +31,7 @@ main {
 
 .box {
     position: relative;
-    width: 330px;
+    width: 340px;
     height: 405px;
     display: flex;
     justify-content: center;
@@ -50,31 +50,17 @@ main {
     z-index: 11;
     transition: 0.2s linear;
 }
+
 .box:hover{
     opacity: 0.9;
 }
-.box::before {
-    content: '';
-    position: absolute;
-    width: 150px;
-    height: 140%;
-    background: linear-gradient(rgb(205, 237, 243), rgb(205, 237, 243));
-    box-shadow: 0px 0px 20px  rgb(0, 255, 247);
-    animation: animate 5s linear infinite;
-}
-@keyframes animate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
+
+
 .box::after {
     content: '';
     position: absolute;
     inset: 4px;
-    background-color: rgb(0, 0, 0); 
+    
     border-radius: 20px;
     background-repeat: no-repeat;
     background-position: center right;
@@ -98,7 +84,9 @@ main {
 }
 .box span {
     position: relative;
-    color: rgb(205, 237, 243);
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 15px;
     font-size: 6em;
     z-index: 10 ;
     transition: 0.2s linear;
@@ -107,6 +95,6 @@ main {
 .box span:hover{
     transition: 0.2s linear;
     transform:scale(1.07);
-    color:rgb(205, 237, 243);
-    text-shadow:   0px 0px 10px rgb(205, 237, 243);
+    color: black;
+    text-shadow: #fff 0px 0px 10px;
 }

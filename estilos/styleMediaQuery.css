@@ -24,7 +24,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 0, 0); 
+        background-color: transparent;
         overflow: hidden;
         border-radius: 25px;
         transition: 0.2s linear;
@@ -38,13 +38,7 @@
     z-index: 11;
     transition: 0.2s linear;
 }
-.principal2 h2 {
-    margin-right: 160px;
-    transition: 0.2s linear;
-    margin-bottom: 380px;
-    
-    margin-right: 50px;
-}
+
 }
 
 
@@ -66,7 +60,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 0, 0); 
+        background-color: transparent; 
         overflow: hidden;
         border-radius: 20px;
         transition: 0.2s linear;

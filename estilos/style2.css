@@ -8,6 +8,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+body { background-color: black;}
+
 .background {
     background:  url(../images/wallpaperflare.com_wallpaper\ \(5\).jpg);
     background-size: cover;
@@ -95,3 +97,31 @@ header {
     margin-top: 3rem;
     cursor: pointer;
 }
+.fundo {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.text {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.games {
+    width: 250px;
+    height: 140px;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: url(../images/NEEDFORSPEED.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
