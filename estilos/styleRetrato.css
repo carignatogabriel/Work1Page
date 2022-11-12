@@ -16,7 +16,7 @@ body {
     background-color: rgb(5, 5, 5);
 }
 main {
-    background: url(../images/IMAGEMDESKTOP.jpg);
+    background: url(../images/wallpaperflare.com_wallpaper\ \(8\).jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -29,59 +29,6 @@ main {
     transition: 0.2s linear;
 }
 
-.box {
-    position: relative;
-    width:  360px;
-    height: 405px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent; 
-    overflow: hidden;
-    border-radius: 20px;
-    transition: 0.2s linear;
-    
-}
-
-.boxvideo {
-    width: 240px;
-    height: 390px;
-    border-radius: 70px 0px 70px 0px;
-    z-index: 11;
-    transition: 0.2s linear;
-}
-
-.box:hover{
-    opacity: 0.9;
-}
-
-
-.box::after {
-    content: '';
-    position: absolute;
-    inset: 4px;
-    
-    border-radius: 20px;
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-    
-}
-
-.box h2 {
-    position: relative;
-    color: #fff;
-    font-size: 2em;
-    width: 210px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    padding: 5px 5px;
-    z-index: 10;
-    cursor: pointer;
-    
-    
-}
 .box span {
     position: relative;
     color: rgb(0, 0, 0);
@@ -89,7 +36,7 @@ main {
     text-shadow: 0px 0px 10px violet;
     border-radius: 15px;
     margin-left: 15px;
-    font-size: 6em;
+    font-size: 8em;
     z-index: 10 ;
     transition: 0.2s linear;
     cursor: pointer;
@@ -104,15 +51,4 @@ main {
 a {
     text-decoration: none;
     
-}
-
-a h1 {
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    text-shadow: 0px 0px 10px violet;
-    display: flex;
-    margin-left: 15px;
-    margin-top: 5px;
-    font-size: 1.1rem;
-    font-style: italic;
 }

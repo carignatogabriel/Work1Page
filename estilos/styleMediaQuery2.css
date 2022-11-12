@@ -30,6 +30,12 @@
         align-items: center;
         margin-bottom: 2rem;
     }
+    .carousel-img {
+        display: flex;
+        transition: 0.2s linear;
+        width: 500px;
+        height: 500px;
+    }
 }
 
 
@@ -55,3 +61,4 @@
         margin-bottom: 2rem;
     }
 }
+

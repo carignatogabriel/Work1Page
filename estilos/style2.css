@@ -49,23 +49,8 @@ header {
     gap: 10rem;
 }
 
-.button-enter {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: start;
-    margin-right: 25px;
-}
 
-.button-enter button {
-    background-color:blueviolet;
-    margin-right: 0px;
-    padding: 10px;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
+
 
 .button-enter a {
     color: #fff;
@@ -97,6 +82,8 @@ header {
 span i {
     color: #fff;
     font-size: 2em;
+    display: flex;
+    
 }
 .fundo {
     background-color: black;
@@ -173,4 +160,64 @@ p {
     display: flex;
     justify-content: center;
 }
+.git-btn {
+    display: flex;
+    margin-top: 10px;
+}
 
+.git-btn span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+
+.git-btn span > i {
+    color: blueviolet;
+}
+
+.git-btn li > a  {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
+    cursor: pointer;
+    color: #fff;
+    width: 125px;
+    height: 38px;
+    border-radius: 4px;
+    margin-left: 5px;
+    border: 1px solid blueviolet;
+    margin-top: 10px;
+    justify-content: start;
+    text-decoration: none;
+    list-style: none;
+
+}
+.git-btn li > a:hover {
+    background-color: blueviolet;
+    transition: 0.2s linear;
+    transform: scale(1.05);
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+   
+    opacity: 0.9;
+    
+    
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.carousel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
