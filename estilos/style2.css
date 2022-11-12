@@ -57,7 +57,7 @@ header {
     font-size: 18px;
 }
 .countainer {
-    margin-left: 8%;
+    margin-left: 2%;
     margin-top: 35%;
     max-width: 100%;
     
@@ -65,7 +65,7 @@ header {
 
 .meio-countainer h1 {
     color: rgb(255, 255, 255);
-    text-shadow:  0px 0px 10px  blueviolet;
+    text-shadow:  0px 0px 20px  blueviolet;
     font-size: 68px;
 }
 .meio-countainer p {
@@ -236,15 +236,32 @@ p {
     font-size: 15px;
 }
 
+ .midle h3 {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+    font-style: italic;
+    color: blueviolet;
+    text-shadow: 25px  blueviolet;
+    font-weight: 500;
+    font-size: 18px;
+
+ }
+    
+
+
 .carousel-img {
     display: flex;
     padding: 0px;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 100vw;
+    width: 100vw; 
     
-    
+}
+.carousel-img img {
+    border-radius: 50px;
 }
 .redes-sociais {
     display: flex;
