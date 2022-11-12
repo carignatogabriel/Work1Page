@@ -8,7 +8,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-body { background-color: black;}
+body { background-color: rgb(0, 0, 0);}
 
 .background {
     background:  url(../images/spidermanPHONE.jpg);
@@ -174,7 +174,7 @@ p {
 }
 
 .git-btn span > i {
-    color: blueviolet;
+    color: rgb(255, 255, 255);
 }
 
 .git-btn li > a  {
@@ -213,11 +213,65 @@ p {
     color: blueviolet;
 }
 
-.carousel-img {
+.midle {
+    padding: 50px 0px;
+    
+}
+.midle span {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: blueviolet;
+    font-size: 4em;
+    
+}
+.midle h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 25px  blueviolet;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.carousel-img {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    width: 500px;
-    height: 500px;
+    width: 100vw;
+    
+    
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    font-size: 2.5em;
+    gap: 3rem;
+}
+.redes-sociais a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover {
+    color: blueviolet;
+}
+.fim-pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 5px;
+}
+
+.fim-pag footer > h1 {
+    font-size: 20px;
 }
